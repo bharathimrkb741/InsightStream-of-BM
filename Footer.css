@@ -1,0 +1,38 @@
+footer {
+    background: linear-gradient(135deg, #6a0dad 0%, #8a2be2 50%, #ff00ff 100%);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10vh 3vw;
+}
+
+.footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer ul li {
+    color: rgb(240, 240, 240); /* lighter for better contrast on gradient */
+    list-style: none;
+    cursor: pointer;
+}
+
+.footer ul li:hover {
+    color: #fff;
+    transform: scaleX(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+footer hr {
+    color: #fff;
+}
+
+footer p {
+    color: #fff;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 3vh;
+}

@@ -1,0 +1,57 @@
+.top-stories-container{
+    margin-left: 2vw;
+    padding: 4vh 0;
+}
+
+.top-stories-container h3{
+
+
+}
+
+.top-stories{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+
+}
+
+.top-story{
+
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    cursor: pointer;
+}
+
+.top-story:hover{
+    transform: scale(1.05);
+    transition: transform 0.5s ease-in-out;
+}
+
+.top-story img{
+
+    /* height: 15vh !important; */
+    width: 150px !important;
+    border-radius: 0.3rem;
+}
+
+.top-story p{
+
+    font-size: 0.8rem;
+}
+.top-stories button{
+    background: linear-gradient(135deg, #6a0dad 0%, #8a2be2 50%, #ff00ff 100%);
+    border: none;
+    color: #fff; /* white text */
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
+
+.top-stories button:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+}
